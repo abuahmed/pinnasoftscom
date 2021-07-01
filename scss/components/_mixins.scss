@@ -2,8 +2,10 @@
 
 // GRADIENT MIXIN 
 @mixin gradient {
-    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+    // background: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
+   background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
+// $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
 
 // ABSOLUTE CENTER 
 @mixin absoluteCenter {
